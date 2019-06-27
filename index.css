@@ -65,7 +65,7 @@ img{
 	padding-bottom: 50px;
 }
 
-.content>button{
+.content>button,.pinkWala{
 	justify-content: center;
 	margin: auto;
 /*	margin: auto;
@@ -122,14 +122,110 @@ img{
 	font-weight: 800;
 	text-align: center;
 	font-family:'Poppins';
-
+	font-size: 23px;
 
 }
 .boxwithShadow>h3{
+
 	font-weight: 200;
 	text-align: center;
 	color: rgb(192,192,192);
+	font-size: 18px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 50px;
+}
+
+#neecheWala{
+	width: 40%;
+	padding-left: 10px;
+	padding-top: 50px;
+	color: white;
+}
+
+.boxwithShadow1{
+	/*display: flex;
+	flex-direction: column;*/
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 20px;
+	/*margin: 20px;*/
+	margin-bottom: -100px;
+	margin-left: 40px;
+	margin-right: 40px;
+	position: relative;
+	z-index: 2;
+	padding: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-weight: 800;
+	font-family:'Poppins';
 }
 
 
 
+section{
+	width: 100%;
+	background-color: hsl(192, 100%, 9%);
+	color: white;
+}
+.baaki{
+	padding-top: 100px;
+}
+.inlineWale{
+	width: 90%;
+	display: flex;
+	padding-top: 20px;
+	align-items: center;
+	font-size: 22px;
+	padding-right: 40px;
+	padding-left: 10px;
+
+}
+.inlineWale>img{
+	width: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.links{
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.links>a{
+	color: white;
+	display: block;
+	padding-top: 25px;
+	padding-left: 10px;
+	text-decoration: none;
+	font-size: 22px;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	
+}
+footer>button{
+
+	font-size: 22px;
+	border-radius: 100%;
+	background-color: hsl(192, 100%, 9%);
+	padding: 15px;
+	color: white;
+	margin-top: 50px;
+	margin: 10px;
+}
+.ftrLine{
+	text-align: center;
+	font-size: 13px;
+	padding: 20px;
+	padding-bottom: 70px;
+}
+.neecheWala{
+/*	background-color: white;
+*/	width: 50%;
+	padding-top: 50px;
+	padding-left: 10px;
+ 	filter: brightness(0) invert(1);
+  
+}
